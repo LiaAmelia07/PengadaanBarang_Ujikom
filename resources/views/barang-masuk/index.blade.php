@@ -16,7 +16,7 @@
 <div class="card col-md-12">
   <h2 class="card-header">Barang Masuk
       <a href="{{ route('barang-masuk.create') }}" class="btn btn-primary float-right col-sm-2 ml-3"><span class="fa fa-plus">&nbsp;</span> tambah</a>
-      <button onclick = "window.print()" class = "btn btn-primary float-right col-sm-2 ml-3"><span class = "fa fa-print">&nbsp;</span> Print</button>
+      {{-- <button onclick = "window.print()" class = "btn btn-primary float-right col-sm-2 ml-3"><span class = "fa fa-print">&nbsp;</span> Print</button> --}}
 </h2>
   <div class="card-body">
   <div class="overflow-auto">

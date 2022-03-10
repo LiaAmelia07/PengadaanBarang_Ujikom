@@ -15,7 +15,7 @@
 <div class="col-sm-1"></div>
 <div class="card col-md-12">
   <h2 class="card-header">Riwayat Transaksi
-    <button onclick = "window.print()" class = "btn btn-primary float-right  col-sm-2 mr-3"><span class = "fa fa-print">&nbsp;</span> Print</button>
+    {{-- <button onclick = "window.print()" class = "btn btn-primary float-right  col-sm-2 mr-3"><span class = "fa fa-print">&nbsp;</span> Print</button> --}}
 </h2>
   <div class="card-body">
   <div class="overflow-auto">
