@@ -18,6 +18,7 @@
     <button onclick = "window.print()" class = "btn btn-primary float-right  col-sm-2 mr-3"><span class = "fa fa-print">&nbsp;</span> Print</button>
 </h2>
   <div class="card-body">
+  <div class="overflow-auto">
     <table class="table table-bordered table-striped table-hover">
                 <thead>
                     <tr>
@@ -71,6 +72,7 @@
                     @endforeach
                 </tbody>
             </table>
+        </div>
   </div>
 </div>
 

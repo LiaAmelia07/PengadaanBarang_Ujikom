@@ -74,7 +74,7 @@
           <!-- ./col -->
         </div>
         @endrole
-        <center><img src="{{asset('img/smk.png')}}" alt="..." /></center>
+        <center><img class="img-fluid" src="{{asset('img/smk.png')}}" alt="..." /></center>
 @endsection
 
 @section('css')

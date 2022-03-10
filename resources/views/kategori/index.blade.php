@@ -17,6 +17,7 @@
   <h2 class="card-header">Kategori <a href="{{ route('kategori.create') }}" class="btn btn-primary float-right col-sm-2"><span class="fa fa-plus">&nbsp;</span> tambah</a>
 </h2>
   <div class="card-body">
+  <div class="overflow-auto">
     <table class="table table-bordered table-striped table-hover">
                 <thead>
                     <tr>
@@ -46,6 +47,7 @@
                     @endforeach
                 </tbody>
             </table>
+        </div>
   </div>
 </div>
 
