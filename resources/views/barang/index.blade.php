@@ -18,7 +18,7 @@
       @role('admin|superadmin')
       <a href="{{ route('barang.create') }}" class="btn btn-primary float-right col-sm-2 ml-3"><span class="fa fa-plus">&nbsp;</span> tambah</a>
       @endrole
-      <button onclick = "window.print()" class = "btn btn-primary float-right col-sm-2 ml-3"><span class = "fa fa-print">&nbsp;</span> Print</button>
+      {{-- <button onclick = "window.print()" class = "btn btn-primary float-right col-sm-2 ml-3"><span class = "fa fa-print">&nbsp;</span> Print</button> --}}
 </h2>
   <div class="card-body">
   <div class="overflow-auto">
