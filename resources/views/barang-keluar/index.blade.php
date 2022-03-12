@@ -25,7 +25,7 @@
 </h2>
   <div class="card-body">
   <div class="overflow-auto">
-    <table class="table table-bordered table-striped table-hover">
+    <table class="table table-bordered table-striped table-hover" id="barangKeluar">
                 <thead>
                     <tr>
                         <th>No</th>
@@ -71,15 +71,15 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="{{ asset('DataTables/datatables.min.css') }}"
+    <link rel="stylesheet" href="{{ asset('DataTables/datatables.min.css') }}">
 @stop
 
 @section('js')
 <script src="{{ asset('DataTables/datatables.min.js') }}"></script>
     <script>
-    $(document).ready(function() {
-        $('#barang-keluar').DataTable();
-    });
+        $(document).ready(function() {
+            $('#barangKeluar').DataTable();
+        });
     </script>
     <script src="{{ asset('js/sweetalert2.js') }}"></script>
     <script>
