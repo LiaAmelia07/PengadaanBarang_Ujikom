@@ -79,7 +79,7 @@
  <script src="{{ asset('DataTables/datatables.min.js') }}"></script>
     <script>
         $(document).ready(function() {
-            $('#barangMasuk').DataTable();
+            $('#barang').DataTable();
         });
     </script>
     <script src="{{ asset('js/sweetalert2.js') }}"></script>
